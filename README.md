@@ -1,4 +1,4 @@
-###thismodule only work for iOS
+###this module only work for iOS
 #react-native-qrcode
 A React-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code).
 ##Installation
