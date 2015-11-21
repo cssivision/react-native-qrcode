@@ -3,18 +3,15 @@
   "version": "1.0.3",
   "description": "react-native qrocode generator",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/cssivision/react-native-qrcode.git"
+    "url": "https://github.com/cssivision/react-native-qrcode.git"
   },
   "keywords": [
     "react-native",
     "qrcode"
   ],
-  "author": "sivision.chen",
+  "author": "sivision.chen <cssivision@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cssivision/react-native-qrcode/issues"
