@@ -1,1 +1,1 @@
-module.exports = require('./lib/qrcode.js');
+module.exports = require('./lib/QRCode.js');
