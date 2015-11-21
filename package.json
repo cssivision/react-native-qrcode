@@ -1,6 +1,6 @@
 {
   "name": "react-native-qrcode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react-native qrocode generator",
   "main": "index.js",
   "scripts": {
