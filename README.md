@@ -69,4 +69,5 @@ prop      | type                 | default value
 `bgColor` | `string` (CSS color) | `"#FFFFFF"`
 `fgColor` | `string` (CSS color) | `"#000000"`
 
+<img src='qrcode.png' height = '256' width = '256'/>
 
