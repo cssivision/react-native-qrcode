@@ -1,6 +1,6 @@
 {
   "name": "react-native-qrcode",
-  "version": "1.0.8",
+  "version": "0.0.9",
   "description": "react-native qrocode generator",
   "main": "index.js",
   "repository": {
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/cssivision/react-native-qrcode#readme",
   "dependencies": {
-    "qr.js": "0.0.0",
-    "react-native": "^0.12.0"
+    "qr.js": "0.0.0"
   }
 }
