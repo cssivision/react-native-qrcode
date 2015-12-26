@@ -1,4 +1,4 @@
-### this module only work for iOS
+### this module work for iOS and Android
 
 # react-native-qrcode
 A React-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code), also support chinese.
