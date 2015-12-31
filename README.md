@@ -1,4 +1,4 @@
-### this module work for iOS and Android
+### this module support iOS and Android
 
 # react-native-qrcode
 A React-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code), also support chinese.
@@ -28,10 +28,11 @@ var helloworld = React.createClass({
     },
     render: function() {
         return (
-            <View style={{marginTop: 30}}>
+            <View style={styles.container}>
                 <TextInput
                     style={styles.input}
                     onChangeText={(text) => this.setState({text: text})}
+                    value={this.state.text}
                 />
                 <QRCode
                     value={this.state.text}
@@ -47,6 +48,8 @@ var styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'white',
+        alignItems: 'center',
+        justifyContent: 'center'
     },
 
     input: {
