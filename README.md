@@ -1,7 +1,7 @@
-### this module support iOS and Android
-
 # react-native-qrcode
-A React-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code), also support chinese.
+A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code), not only support English.
+
+## this module support iOS and Android
 
 ## Installation
 ```sh
