@@ -11,14 +11,14 @@ npm install react-native-qrcode
 ```jsx
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
 var QRCode = require('react-native-qrcode');
 var {
     AppRegistry,
     StyleSheet,
     View,
     TextInput
-} = React;
+} = require('react-native');
 
 var helloworld = React.createClass({
     getInitialState: function() {
