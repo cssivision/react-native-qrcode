@@ -18,6 +18,5 @@
   },
   "homepage": "https://github.com/cssivision/react-native-qrcode#readme",
   "dependencies": {
-    "qr.js": "0.0.0"
   }
 }
