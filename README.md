@@ -11,45 +11,46 @@ npm install react-native-qrcode
 ```jsx
 'use strict';
 
-var React = require('react');
-var QRCode = require('react-native-qrcode');
-var {
+import React, { Component } from 'react'
+import QRCode from 'react-native-qrcode';
+
+import {
     AppRegistry,
     StyleSheet,
     View,
     TextInput
-} = require('react-native');
+} from 'react-native';
 
-var helloworld = React.createClass({
-    getInitialState: function() {
-        return {
-            text: 'http://facebook.github.io/react-native/',
-        };
-    },
-    render: function() {
-        return (
-            <View style={styles.container}>
-                <TextInput
-                    style={styles.input}
-                    onChangeText={(text) => this.setState({text: text})}
-                    value={this.state.text}
-                />
-                <QRCode
-                    value={this.state.text}
-                    size={200}
-                    bgColor='purple'
-                    fgColor='white'/>
-            </View>
-        );
-    }
-});
+class HelloWorld extends Component {
+  state = {
+    text: 'http://facebook.github.io/react-native',
+  };
 
-var styles = StyleSheet.create({
+  render() {
+    return (
+      <View style={styles.container}>
+        <TextInput
+          style={styles.input}
+          onChangeText={(text) => this.setState({text: text})}
+          value={this.state.text}
+        />
+        <QRCode
+          value={this.state.text}
+          size={200}
+          bgColor='purple'
+          fgColor='white'/>
+      </View>
+    );
+  };
+}
+
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'white',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        marginTop: 80
     },
 
     input: {
@@ -62,9 +63,9 @@ var styles = StyleSheet.create({
     }
 });
 
-AppRegistry.registerComponent('helloworld', () => helloworld);
+AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
 
-module.exports = helloworld;
+module.exports = HelloWorld;
 ```
 ## Available Props
 
