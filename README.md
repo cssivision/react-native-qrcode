@@ -23,7 +23,7 @@ import {
 
 class HelloWorld extends Component {
   state = {
-    text: 'http://facebook.github.io/react-native',
+    text: 'http://facebook.github.io/react-native/',
   };
 
   render() {
