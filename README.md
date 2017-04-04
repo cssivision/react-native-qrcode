@@ -70,8 +70,8 @@ prop      | type                 | default value
 ----------|----------------------|--------------
 `value`   | `string`             | `http://facebook.github.io/react-native/`
 `size`    | `number`             | `128`
-`bgColor` | `string` (CSS color) | `"#FFFFFF"`
-`fgColor` | `string` (CSS color) | `"#000000"`
+`bgColor` | `string` (CSS color) | `"#000"`
+`fgColor` | `string` (CSS color) | `"#FFF"`
 
 <img src='qrcode.png' height = '256' width = '256'/>
 
