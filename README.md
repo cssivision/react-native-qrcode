@@ -75,3 +75,6 @@ prop      | type                 | default value
 
 <img src='qrcode.png' height = '256' width = '256'/>
 
+# Licenses
+
+All source code is licensed under the [MIT License](https://github.com/cssivision/react-native-qrcode/blob/master/LICENSE).
