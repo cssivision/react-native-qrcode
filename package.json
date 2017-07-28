@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/cssivision/react-native-qrcode#readme",
   "dependencies": {
+    "create-react-class": "^15.6.0",
+    "prop-types": "^15.5.10",
     "qr.js": "0.0.0"
   }
 }
