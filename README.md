@@ -68,12 +68,14 @@ module.exports = HelloWorld;
 ```
 ## Available Props
 
-prop      | type                 | default value
-----------|----------------------|--------------
-`value`   | `string`             | `http://facebook.github.io/react-native/`
-`size`    | `number`             | `128`
-`bgColor` | `string` (CSS color) | `"#000"`
-`fgColor` | `string` (CSS color) | `"#FFF"`
+prop                | type                 | default value
+--------------------|----------------------|--------------
+`value`             | `string`             | `http://facebook.github.io/react-native/`
+`size`              | `number`             | `128`
+`bgColor`           | `string` (CSS color) | `"#000"`
+`fgColor`           | `string` (CSS color) | `"#FFF"`
+`errorCorrectLevel` | `number` (1, 0, 3, 2)| `"2"`
+
 
 <img src='qrcode.png' height = '256' width = '256'/>
 
