@@ -1,5 +1,3 @@
-# THIS PROJECT IS NO LONGER MAINTAINED
-
 # react-native-qrcode
 A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code), not only support English.
 
