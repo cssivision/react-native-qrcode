@@ -1,6 +1,6 @@
 {
   "name": "react-native-qrcode",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "react-native qrocode generator",
   "main": "index.js",
   "repository": {
@@ -20,6 +20,7 @@
   "dependencies": {
     "create-react-class": "^15.6.0",
     "prop-types": "^15.5.10",
-    "qr.js": "0.0.0"
+    "qr.js": "0.0.0",
+    "react-native-webview": "^6.9.0"
   }
 }
