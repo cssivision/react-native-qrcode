@@ -1,11 +1,11 @@
 {
-  "name": "react-native-qrcode",
-  "version": "0.2.7",
-  "description": "react-native qrocode generator",
+  "name": "@doubledutch/react-native-qrcode",
+  "version": "1.0.0",
+  "description": "react-native qrcode generator",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cssivision/react-native-qrcode.git"
+    "url": "git+https://github.com/cssivision/react-native-qrcode.git"
   },
   "keywords": [
     "react-native",
@@ -21,5 +21,12 @@
     "create-react-class": "^15.6.0",
     "prop-types": "^15.5.10",
     "qr.js": "0.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
